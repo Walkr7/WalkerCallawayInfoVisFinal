@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cyclists and Smog</title>
+  <script src="https://public.flourish.studio/resources/embed.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  
+</head>
+<body>
+
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#intro">Introduction</a></li>
+      <li><a href="#hypothesis">Hypothesis</a></li>
+      <li><a href="#datasets">Data Sets</a></li>
+      <li><a href="#visual1">Visual 1</a></li>
+      <li><a href="#visual2">Visual 2</a></li>
+      <li><a href="#visual3">Visual 3</a></li>
+      <li><a href="#visual4">Visual 4</a></li>
+      <li><a href="#visual5">Visual 5</a></li>
+      <li><a href="#conclusion">Conclusion</a></li>
+    </ul>
+  </nav>
+
+  <header id="home">
+    <div class="hero-text">
+      <h1>Cyclists and Smog</h1>
+      <h2>Exploring the Relationship Between Bike Commuting and Air Quality in NYC</h2>
+    </div>
+  </header>
+
+  <section id="intro">
+    <h2>Introduction</h2>
+    <p>Bike commuting is one of the most visible signs of sustainable urban life in New York City. As a regular cyclist, I wanted to explore how biking activity might relate to environmental health, specifically, air quality. This project uses data from January 2019 to compare Citi Bike usage and PM2.5 air pollution levels across NYC boroughs and selected neighborhoods.</p>
+  </section>
+
+  <section id="hypothesis">
+    <h2>Hypothesis</h2>
+    <p>I believe that areas with more bike commuting, particularly those with longer average trip durations, will show lower concentrations of PM2.5 particles. PM2.5 refers to fine particulate matter smaller than 2.5 microns, which can penetrate the lungs and bloodstream, contributing to serious health issues and degraded air quality.</p>
+  </section>
+
+  <section id="datasets">
+    <h2>Data Sets</h2>
+    <ul>
+      <li><strong>Citi Bike Trip Data:</strong> January 2019 trip history (CSV)</li>
+      <li><strong>NYC Air Quality:</strong> Winter 2018–2019 borough- and neighborhood-level PM2.5 averages</li>
+    </ul>
+  </section>
+
+  <section id="visual1">
+    <h2>Visual 1: PM2.5 Air Pollution by Borough (Map)</h2>
+    <p>This map shows the average PM2.5 levels across NYC boroughs. Queens and Manhattan report the highest pollution, while Brooklyn and the Bronx are moderately lower. This sets a baseline for how air quality varies spatially across the city.</p>
+    <div class="flourish-embed flourish-map" data-src="visualisation/22987392"></div>
+  </section>
+
+  <section id="visual2">
+    <h2>Visual 2: Citi Bike Trip Density by Borough (Map)</h2>
+    <p>Here, I visualize the number of Citi Bike rides originating from each borough. Manhattan leads by a wide margin, followed by Brooklyn. This map begins to show which areas rely more heavily on cycling as part of their daily transportation.</p>
+    <div class="flourish-embed flourish-map" data-src="visualisation/22986735"></div>
+  </section>
+
+  <section id="visual3">
+    <h2>Visual 3: Total Number of Rides by Neighborhood (Bubble Chart)</h2>
+    <p>Zooming in closer, this bubble chart compares the total number of rides in five well-known NYC neighborhoods. SoHo dominates, with over 100,000 rides in January alone, while places like Astoria and the Financial District show much lower volumes. This visual helps identify biking hotspots at the neighborhood level.</p>
+    <div class="flourish-embed flourish-bubble-chart" data-src="visualisation/23078265"></div>
+  </section>
+
+  <section id="visual4">
+    <h2>Visual 4: Average Ride Duration vs. PM2.5 Levels (Bar + Line Chart)</h2>
+    <p>This is the key visual comparison in the project. The bars show average trip duration by neighborhood, while the line represents local PM2.5 levels. There's a noticeable inverse pattern: neighborhoods with longer bike rides (like the Upper West Side and Financial District) tend to show lower levels of pollution. This supports the idea that longer, commuter-style biking might correlate with cleaner air.</p>
+    <div class="flourish-embed flourish-chart" data-src="visualisation/23077337"></div>
+  </section>
+
+  <section id="visual5">
+    <h2>Visual 5: Air Quality by Neighborhood (Bar Chart)</h2>
+    <p>To better isolate pollution data, this bar chart shows average PM2.5 levels for each neighborhood in the study. Astoria reports the highest PM2.5, while Williamsburg and SoHo have the lowest. When viewed alongside trip volume and duration, these differences highlight how air quality and biking patterns may intersect.</p>
+    <div class="flourish-embed flourish-chart" data-src="visualisation/23077135"></div>
+  </section>
+
+  <section id="conclusion">
+    <h2>Closing Insight</h2>
+    <p>The data doesn’t prove causation, but it does suggest a relationship worth paying attention to. Neighborhoods with heavier and longer bike usage seem to have slightly better air quality. Whether that’s a result of infrastructure, car traffic reduction, or other factors isn’t clear, but it’s a connection I believe deserves more attention in how we think about commuting and environmental health in cities.</p>
+  </section>
+
+  <footer>
+    <p>Project by Walker Callaway — Info Viz Final © 2025</p>
+  </footer>
+
+</body>
+</html>
